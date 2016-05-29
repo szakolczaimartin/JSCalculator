@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CSS Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+	<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div id="calculator">
+		<!-- Screen and clear key -->
+			<div class="top">
+				<span class="clear">C</span>
+				<div class="screen" id="display"></div>
+			</div>
+			
+			<div class="keys">
+				<!-- operators and other keys -->
+				<span>7</span>
+				<span>8</span>
+				<span>9</span>
+				<span class="operator">+</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+				<span class="operator">-</span>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span class="operator">/</span>
+				<span>0</span>
+				<span>.</span>
+				<span class="eval">=</span>
+				<span class="operator">x</span>
+			</div>
+		</div>
+		
+		<div id="facts">
+			<h1>Fact About This Number</h1>
+			<span id="tale">There is nothing to look up!</span>
+		</div>
+
+        <script type="text/javascript" src="logic.js"></script>
+        <script type="text/javascript" src="numbersapi.js"></script>
+    </body>
+</html>
